@@ -33,6 +33,5 @@ public class CartoonController {
 		cartoonRepository.save(cartoon);
 	}
 	
-//	@DeleteMapping("/")
 
 }
