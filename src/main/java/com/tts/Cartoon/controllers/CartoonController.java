@@ -32,5 +32,7 @@ public class CartoonController {
 	void addCartoon(@RequestBody Cartoon cartoon) {
 		cartoonRepository.save(cartoon);
 	}
+	
+//	@DeleteMapping("/")
 
 }
