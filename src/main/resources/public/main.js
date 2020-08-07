@@ -375,7 +375,7 @@ __webpack_require__.r(__webpack_exports__);
 class CartoonService {
     constructor(http) {
         this.http = http;
-        this.cartoonsUrl = 'http://localhost:8080/cartoons';
+        this.cartoonsUrl = 'https://hidden-sierra-27827.herokuapp.com/cartoons';
     }
     findAll() {
         return this.http.get(this.cartoonsUrl);

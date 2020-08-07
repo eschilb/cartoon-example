@@ -13,7 +13,7 @@ import com.tts.Cartoon.entities.Cartoon;
 import com.tts.Cartoon.repositories.CartoonRepository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://hidden-sierra-27827.herokuapp.com/")
 public class CartoonController {
 	
 	
